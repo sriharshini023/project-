@@ -14,7 +14,7 @@ var count = 0;
 var gameState ="start";
 
 function setup() {
-  createCanvas(800, 800);
+  createCanvas(400, 800);
   engine = Engine.create();
   world = engine.world;
   ground = new Ground(width/2,height,width,20);
